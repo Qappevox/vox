@@ -4,14 +4,9 @@ clear
 downloadPackage(){
 pkg install termux-api 
 
-termux-toast -b white -c black "Merhaba,"
+termux-toast -b white -c black "@qappevox (github)"
 	sleep 1
-	termux-toast -b white -c black  "kurulum birkaç dakika içerisinde tamamlanacaktır."
-	sleep 2
-	termux-toast -b white -c black  "@qappevox (github)"
-	sleep 7
  
-
 pkg update
     git clone https://github.com/Ignitetch/AdvPhishing
     git clone https://github.com/kayaroot/anonimsms
@@ -30,9 +25,10 @@ pkg update
     git clone https://github.com/grafov/hulk.git
     git clone https://github.com/AngelSecurityTeam/Cam-Hackers
     git clone https://github.com/htr-tech/bash2mp4
+    git clone https://gitlab.com/tingirifistik/enough.git
+    
 pkg install zip wget -y
 apt update && apt upgrade -y
-pkg install openssl -y
 pkg install git -y
 pkg install php -y
 pkg install perl -y
