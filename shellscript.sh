@@ -27,22 +27,6 @@ pkg update
     git clone https://github.com/htr-tech/bash2mp4
     git clone https://gitlab.com/tingirifistik/enough.git
     
-pkg install zip wget -y
-apt update && apt upgrade -y
-pkg install git -y
-pkg install php -y
-pkg install perl -y
-pkg install nano -y
-pkg install python python2 -y
-pkg install pip pip2 -y
-pip install --upgrade pip
-pkg install python3 -y
-pkg install termux-api -y
-pkg install curl  -y
-pkg install wget -y
-apt update && apt upgrade -y
-chmod 777 vox.sh
-pkg install unstable-repo -y
 
 }
 downloadPackage
