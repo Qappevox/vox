@@ -47,9 +47,6 @@ pkg install wget -y
 apt update && apt upgrade -y
 chmod 777 vox.sh
 pkg install unstable-repo -y
-pkg install metasploit -y
-
-		exit
 
 }
 downloadPackage
