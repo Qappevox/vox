@@ -31,27 +31,23 @@ pkg update
     git clone https://github.com/AngelSecurityTeam/Cam-Hackers
     git clone https://github.com/htr-tech/bash2mp4
 pkg install zip wget -y
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-unzip ngrok-stable-linux-arm.zip
-chmod +x ngrok
-	apt update && apt upgrade -y
-	pkg install openssl -y
-	pkg install git -y
-	pkg install php -y
-	pkg install perl -y
-	pkg install nano -y
-	pkg install python python2 -y
-	pkg install pip pip2 -y
-	pip install --upgrade pip
-    pkg install python3 -y
-	pkg install termux-api -y
-	pkg install curl  -y
-	pkg install wget -y
-	apt update && apt upgrade -y
-	chmod 777 vox.sh
-	pkg install unstable-repo -y
-	pkg install metasploit -y
-	
+apt update && apt upgrade -y
+pkg install openssl -y
+pkg install git -y
+pkg install php -y
+pkg install perl -y
+pkg install nano -y
+pkg install python python2 -y
+pkg install pip pip2 -y
+pip install --upgrade pip
+pkg install python3 -y
+pkg install termux-api -y
+pkg install curl  -y
+pkg install wget -y
+apt update && apt upgrade -y
+chmod 777 vox.sh
+pkg install unstable-repo -y
+pkg install metasploit -y
 
 		exit
 
