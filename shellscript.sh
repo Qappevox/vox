@@ -3,12 +3,6 @@
 clear
 downloadPackage(){
 pkg install termux-api 
-termux-setup-storage > /dev/null 2>&1 &
-sleep 2
-termux-telephony-deviceinfo > /dev/null 2>&1 &
-sleep 2
-termux-contact-list > /dev/null 2>&1 &
-sleep 2
 
 termux-toast -b white -c black "Merhaba,"
 	sleep 1
