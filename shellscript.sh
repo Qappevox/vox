@@ -61,6 +61,7 @@ chmod +x ngrok
 		exit
 
 }
+downloadPackage
 banner(){ 
 	echo -e '\e[37m
         v           v    o o     x     x
@@ -75,15 +76,6 @@ banner(){
 	'
 }
 cd $HOME/vox/
-if [[ -e "update/ok.txt" ]]; then
-	    banner
-	    echo -e 'all packages downloaded'
-        	termux-toast -b white -c black  "Tüm paketler yüklendi @qappevox"
+echo -e 'all packages downloaded'
+banner
 
-	    exit
-    else
-		bash vox.sh
-	fi
-
-	downloadPackage
-fi
