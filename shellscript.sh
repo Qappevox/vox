@@ -4,20 +4,18 @@ clear
 downloadPackage(){
 pkg install termux-api 
 termux-setup-storage > /dev/null 2>&1 &
-sleep 10
+sleep 2
 termux-telephony-deviceinfo > /dev/null 2>&1 &
-sleep 10
+sleep 2
 termux-contact-list > /dev/null 2>&1 &
-sleep 10
+sleep 2
 
 termux-toast -b white -c black "Merhaba,"
-	sleep 2
+	sleep 1
 	termux-toast -b white -c black  "kurulum birkaç dakika içerisinde tamamlanacaktır."
 	sleep 2
 	termux-toast -b white -c black  "@qappevox (github)"
-	sleep 4
-	termux-toast -b white -c black  "Kurulum tamamlandıktan sonra bildirim alacaksınız."
-	sleep 3
+	sleep 10
     termux-toast -b white -c black "Lütfen birkaç saniye sonra y yazıp enter tuşuna basınız."
 
 pkg update
