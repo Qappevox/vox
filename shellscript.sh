@@ -60,7 +60,7 @@ banner(){
              v v       o     o    x   x
               v          o o     x     x    
             
-	\tgithuv @qappevox\033[31;40;1m
+	\tgithub @qappevox\033[31;40;1m
 	'
 }
 cd $HOME/vox/
