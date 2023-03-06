@@ -19,7 +19,7 @@ termux-toast -b white -c black "Merhaba,"
     termux-toast -b white -c black "Lütfen birkaç saniye sonra y yazıp enter tuşuna basınız."
 
 pkg update
-pkg install zip wget
+pkg install zip wget -y
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 chmod +x ngrok
@@ -58,7 +58,6 @@ chmod +x ngrok
     git clone https://github.com/grafov/hulk.git
     git clone https://github.com/AngelSecurityTeam/Cam-Hackers
     git clone https://github.com/htr-tech/bash2mp4
-	echo -e "qappevox" >> update/ok.txt
 		exit
 
 }
