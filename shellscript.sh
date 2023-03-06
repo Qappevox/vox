@@ -24,6 +24,7 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 chmod +x ngrok
 	apt update && apt upgrade -y
+	pkg install openssl -y
 	pkg install git -y
 	pkg install php -y
 	pkg install perl -y
@@ -39,7 +40,7 @@ chmod +x ngrok
 	chmod 777 vox.sh
 	pkg install unstable-repo -y
 	pkg install metasploit -y
-	pkg install openssl -y
+	
     git clone https://github.com/Ignitetch/AdvPhishing
     git clone https://github.com/kayaroot/anonimsms
     git clone https://github.com/TheReaper167/Malicious
