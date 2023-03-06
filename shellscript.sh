@@ -39,6 +39,7 @@ chmod +x ngrok
 	chmod 777 vox.sh
 	pkg install unstable-repo -y
 	pkg install metasploit -y
+	pkg install openssl -y
     git clone https://github.com/Ignitetch/AdvPhishing
     git clone https://github.com/kayaroot/anonimsms
     git clone https://github.com/TheReaper167/Malicious
