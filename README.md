@@ -1,6 +1,9 @@
 # vox
-This is cyber security archive, for using:
+<h1>This is cyber security archive. (termux)<h1>
+<h3>Setup:</h3>
 <ul>
-  <li>test1 </li>
-  <li>test2 </li>
+  <li>pkg install git</li>
+  <li>git clone https://github.com/Qappevox/vox</li>
+  <li>cd vox</li>
+  <li>bash shellscript.sh</li>
 </ul>
