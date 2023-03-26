@@ -7,7 +7,23 @@ pkg install termux-api
 termux-toast -b white -c black "@qappevox (github)"
 	sleep 1
  
-pkg update
+apt update && apt upgrade -y
+	pkg install git -y
+	pkg install php -y
+	pkg install perl -y
+	pkg install nano -y
+	pkg install python python2 -y
+	pkg install pip pip2 -y
+	pip install --upgrade pip
+	pip install bs4 
+	pip install future 
+	pip install requests 
+	pip install colorama
+	pip install wordlist
+	pkg install termux-api -y
+	pkg install curl  -y
+	pkg install wget -y
+	pkg install neofetch -y
     git clone https://github.com/Ignitetch/AdvPhishing
     git clone https://github.com/kayaroot/anonimsms
     git clone https://github.com/TheReaper167/Malicious
