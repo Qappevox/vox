@@ -26,7 +26,6 @@ apt update && apt upgrade -y
     git clone https://github.com/AngelSecurityTeam/Cam-Hackers
     git clone https://github.com/htr-tech/bash2mp4
     git clone https://gitlab.com/tingirifistik/enough.git
-    git clone https://github.com/Qappevox/suffer
 
 }
 downloadPackage
