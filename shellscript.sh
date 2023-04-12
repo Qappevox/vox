@@ -8,16 +8,6 @@ termux-toast -b white -c black "@qappevox (github)"
 	sleep 1
  
 apt update && apt upgrade -y
-	pkg install git -y
-	pkg install php -y
-	pkg install python python2 -y
-	pkg install pip pip2 -y
-	pip install --upgrade pip
-	pip install bs4 
-	pip install future 
-	pip install requests 
-	pip install colorama
-	pkg install termux-api -y
     git clone https://github.com/Ignitetch/AdvPhishing
     git clone https://github.com/kayaroot/anonimsms
     git clone https://github.com/TheReaper167/Malicious
